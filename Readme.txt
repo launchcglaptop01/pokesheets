@@ -17,7 +17,9 @@ In this source directory.
 
 To run this app inside of the container after pulling, please type:
 
-    docker run -it pokesheets:latest pikachu bulbasaur
+    docker run -it pokesheets:latest pikachu bulbasaur (if you build locally)
+
+    docker run -it launchcglaptop01/pokesheets pikachu bulbasaur (if you pull from DockerHub)
 
 
 The expected return for the previous run would be:
