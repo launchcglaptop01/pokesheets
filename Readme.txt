@@ -18,3 +18,10 @@ In this source directory.
 To run this app inside of the container after pulling, please type:
 
     docker run -it pokesheets:latest pikachu bulbasaur
+
+
+The expected return for the previous run would be:
+
+    ID,NAME,WEIGHT,TYPES
+    25,pikachu,60,electric
+    1,bulbasaur,69,poison|grass

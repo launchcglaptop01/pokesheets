@@ -36,7 +36,7 @@ def main():
 
     #Removing the first argument which contains this program name but it is not an input parameter
     arguments=sys.argv[1::]
-
+    print("ID,NAME,WEIGHT,TYPES")
     for input in sys.argv[1::]:
          # For each valid parameter
         try:
